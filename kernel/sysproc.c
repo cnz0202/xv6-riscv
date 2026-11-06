@@ -114,6 +114,6 @@ sys_uptime(void)
 uint64
 sys_trace(void)
 {
-	printk("sys_trace called!\n");
-	return 0;
+  printk("sys_trace called!\n");
+  return 0;
 }
